@@ -1,0 +1,96 @@
+
+.Create{
+    position: absolute;bottom:100px; left:535px;
+  padding: 60px;
+  background-color:(255,255,255,0.25);
+  backdrop-filter: blur(28px);
+  border: 2px solid white;
+  border-bottom: 1px solid (255,255,255,0.5);
+  border-right: 1px solid (255,255,255,0.5) ;
+  border-radius: 20px;
+  height: 425px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  box-shadow: 0px 25px 50px (0,0,0,0.1);
+  }
+  
+  .Create h2{
+    position: relative;
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin-top: -40px;
+    margin-bottom: 0px;
+  }
+  .Create .inputBox{
+    position:relative;
+    margin-left:-40px;  
+  
+  }
+  .Create .signup{
+    position:relative;
+    margin-left:-40px;  
+  right: -20px;
+  }
+  .Create .inputBox input{
+    position: relative;
+    width: 100%;
+    padding: 15px 20px;
+    outline: none;
+    font-size: 1.25em;
+    color: crimson;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: solid gray 2px;
+    margin-top: 0px;
+  }
+  .Create .signup input{
+    position: relative;
+    width: 100%;
+    padding: 15px 20px;
+    outline: none;
+    font-size: 1.25em;
+    color: crimson;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: solid gray 2px;
+    margin-top: 0px;
+  }
+  .Create .inputBox::placeholder{
+    color: azure;
+  }
+  .Create .signup #btn{
+    position: relative;
+    border: none;
+    outline: none;
+    background: #8f2c24;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 1.25em;
+    font-weight: 500;
+    transition: 0.55;
+  }
+  .Create .inputBox #btn:hover{
+    background: #d64c42;
+  }
+  .Create .group{
+    display: flex;
+    justify-content: space-between;
+  }
+  .Create .group h3{
+    
+  }
+  .Create .group a{
+    font-size: 1.25em;
+    margin-top: 18px;
+    color: #8f2c24;
+    font-weight: 500;
+    text-decoration: none;
+  }
+ 
+  
+  

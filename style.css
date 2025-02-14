@@ -1,0 +1,172 @@
+body{
+  background-color: rgb(53, 51, 51);
+}
+h3{
+  
+  font-size: 10rem;
+  color: white;
+  line-height: 1;
+}
+
+ h3 span{
+  color: rgb(44, 153, 82);
+}
+.Login{
+  position: absolute;bottom:50px; right:90px;
+padding: 60px;
+background-color: (255,255,255,0.25);
+backdrop-filter: blur(40px);
+border: 2px solid rgb(44, 153, 82);
+border-bottom: 1px solid (255,255,255,0.5);
+border-right: 1px solid (255,255,255,0.5) ;
+border-radius: 20px;
+height: 410px;
+width: 280px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+box-shadow: 0px 25px 50px (0,0,0,0.1);
+}
+
+.Login h3{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  color: rgb(44, 153, 82);
+  margin-top: -20px;
+  margin-bottom: 2px;
+}
+.Login .inputBox{
+  position: relative;
+  margin-left:-20px;
+  margin-right:20px;
+}
+.Login .loginn{
+  position: relative;
+  margin-left:-0px; 
+  margin-right: 30px;
+  right: -20px;
+}
+ .image{
+  position: absolute;bottom: 0px;left: 150px;
+  flex: 1 1 40rem;
+}
+ .image img{
+  width: 225%;
+}
+.Login .inputBox input{
+  position: relative;
+  width: 100%;
+  padding: 15px 20px;
+  outline: none;
+  font-size: 1.25em;
+  color: rgb(240, 231, 233);
+  border-radius: 5px;
+  background-color: #656161;
+  border: 0px;
+  margin-top: 20px;
+}
+.Login .loginn input{
+  position: relative;
+  width: 100%;
+  padding: 15px 20px;
+  outline: none;
+  font-size: 1.25em;
+  color: crimson;
+  border-radius: 5px;
+  background-color: beige;
+  border: solid black 0px;
+  margin-top: 30px;
+}
+.Login .inputBox::placeholder{
+  color: azure;
+}
+.Login .loginn #btn{
+  position: relative;
+  border-radius: 5rem;
+  outline: none;
+  background: #656161;
+  color: #ffff;
+  cursor: pointer;
+  font-size: 1.25em;
+  font-weight: 500;
+  transition: 0.55;
+}
+.Login .loginn #btn:hover{
+  background: #e9eeec;
+  color: black;
+}
+.Login .group{
+  display: flex;
+  justify-content: space-between;
+}
+.Login .group a{
+  font-size: 1.25em;
+  color: #2d8743;
+  font-weight: 500;
+  text-decoration: none;
+}
+.Login .group a:nth-child(2){
+  text-decoration: underline ;
+}
+.snowf img{
+  width: 50px;
+  animation: snowf 2s linear infinite;
+}
+.snowf{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: -75px;
+}
+@keyframessnowf{
+  0%{
+    transform: translateY(0);
+    opacity: 0;
+  }
+  25%{
+    
+    opacity: 1;
+  }
+  50%{
+    
+    opacity: 1;
+  }
+  75%{
+    
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(80vh);
+    opacity: 0;
+  }
+}
+.snowf img:nth-child(1){
+  animation-delay: 2s;
+  width: 30px;
+}
+.snowf img:nth-child(2){
+  animation-delay: 3s;
+  width: 45px;
+}
+.snowf img:nth-child(3){
+  animation-delay: 5.5s;
+}
+.snowf img:nth-child(4){
+  animation-delay: 4.5s;
+}
+.snowf img:nth-child(5){
+  animation-delay: 4s;
+  width: 25px;
+}
+.snowf img:nth-child(6){
+  animation-delay: 3.5s;
+}
+.snowf img:nth-child(7){
+  animation-delay: 5s;
+  width: 55px;
+}
